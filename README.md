@@ -8,7 +8,20 @@
 
 > A Telegram bot which give you the value of cryptocurrency and its variation in the past 24h
 
-## Install
+## Tree structure
+
+```sh
+├── ask_api.py
+├── docker
+│   ├── docker-compose.yml
+│   └── Dockerfile
+├── function_tlg.py
+├── main.py
+├── README.md
+└── requirements.txt
+```
+
+## Install dependancy
 
 ```sh
 pip install -r requirements.txt
@@ -16,8 +29,14 @@ pip install -r requirements.txt
 
 ## Usage
 
+### Without docker
 ```sh
-docker compose up -d
+python3 main.py
+```
+
+### With docker
+```sh
+docker-compose up -d
 ```
 
 ## Author
