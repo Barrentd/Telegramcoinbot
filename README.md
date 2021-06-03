@@ -13,8 +13,8 @@
 ```sh
 ├── ask_api.py
 ├── docker
-│   ├── docker-compose.yml
-│   └── Dockerfile
+├── docker-compose.yml
+├── Dockerfile
 ├── function_tlg.py
 ├── main.py
 ├── README.md
